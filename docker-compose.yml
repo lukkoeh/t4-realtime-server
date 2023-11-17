@@ -1,0 +1,11 @@
+version: "1.0"
+services:
+  socketserver:
+    container_name: t4socket.docker
+    build: .
+    ports:
+      - "8082:8082"
+networks:
+    default:
+        name: t4api
+        external: true

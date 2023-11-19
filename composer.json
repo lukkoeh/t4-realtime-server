@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-4": {
+            "RealTimeServer\\": "src"
+        }
+    },
+    "require": {
+        "cboden/ratchet": "^0.4.4",
+        "symfony/process": "^6.3"
+    }
+}
